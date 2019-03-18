@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Slider Component Carousel/Slideshow/Gallery/Banner</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   
+
+</head>
+<body>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="container">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <ul class="navbar-nav">
+
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item active">
+                            <a class="nav-link" href="#">Our Motive</a>
+                          </li>
+                          <li class="nav-item active">
+                                <a class="nav-link" href="#">Feedback</a>
+                              </li>
+                              <li class="nav-item active">
+                                    <a class="nav-link" href="#">About us</a>
+                                  </li>
+                    </ul>
+                  </nav>
+                  
+
+ 
+        <!--  Slider Begin -->
+        <style>
+            /* jssor slider loading skin spin css */
+            .jssorl-009-spin img {
+                animation-name: jssorl-009-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes jssorl-009-spin {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 442px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+            </div>
+
+            <!-- Slides Container -->
+            <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 442px;
+            overflow: hidden;">
+                <div>
+                    <img data-u="image" src="./img/gallery/980x380/imgone.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="./img/gallery/980x380/imgtwo.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="./img/gallery/980x380/imgthree.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="./img/gallery/980x380/imgfour.png" />
+                </div>
+                <div>
+                        <img data-u="image" src="./img/gallery/980x380/imgfive.png" />
+                    </div>
+                    <div>
+                            <img data-u="image" src="./img/gallery/980x380/imgsix.png" />
+                        </div>
+            </div>
+            
+           
+            <style>
+                .jssorb031 {position:absolute;}
+                .jssorb031 .i {position:absolute;cursor:pointer;}
+                .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+                .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+                .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+                .jssorb031 .i.idn {opacity:.3;}
+            </style>
+            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+           
+            <style>
+                .jssora051 {display:block;position:absolute;cursor:pointer;}
+                .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+                .jssora051:hover {opacity:.8;}
+                .jssora051.jssora051dn {opacity:.5;}
+                .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+            </style>
+
+            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            
+            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+         
+     
+</div>
+
+    
+    <script src="./js/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="docs.min.js"></script>
+    <script src="ie10-viewport-bug-workaround.js"></script>
+
+    <script type="text/javascript" src="./js/jssor.slider.min.js"></script>
+    <script>
+
+jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: 1,                                       
+                $AutoPlaySteps: 1,                                  
+                $Idle: 2000,                                        
+                $PauseOnHover: 1,                                   
+
+                $ArrowKeyNavigation: 1,   			                
+                $SlideEasing: $Jease$.$OutQuint,                    
+                $SlideDuration: 800,                                
+                $MinDragOffsetToSlide: 20,                          
+                
+                
+                $SlideSpacing: 0, 					                
+                $UISearchMode: 1,                                   
+                $PlayOrientation: 1,                                
+                $DragOrientation: 1,                                
+
+                $ArrowNavigatorOptions: {                           
+                    $Class: $JssorArrowNavigator$,                  
+                    $ChanceToShow: 2,                               
+                    $Steps: 1                                       
+                },
+
+                $BulletNavigatorOptions: {                          
+                    $Class: $JssorBulletNavigator$,                 
+                    $ChanceToShow: 2,                               
+                    $Steps: 1,                                      
+                    $SpacingX: 12,                                  
+                    $Orientation: 1                                 
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            
+            
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    jssor_slider1.$ScaleWidth(parentWidth - 30);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            
+        });
+
+    </script>
+    <br>
+    <br>
+
+<h3 style="font-size: 50px; ">21 Din Mea Paisa Double  Grantee <span class="tag tag-default"></span></h3>
+
+
+<br>
+<br>
+<form>
+        <div class="form-group">
+        
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+       <center> <input type="submit" class="btn btn-primary" value="Invest" style="width: 176px;"> </center>
+</form>        
+</div>
+</body>
+</html>
